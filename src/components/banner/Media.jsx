@@ -1,47 +1,27 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import React from "react";
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-5 lgl:gap-0 justify-between">
-      <h2>Download now</h2>
-        {/* <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </div>
-        </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
-          </div>
-        </div> */}
-      </div>
-  )
-}
+    <div className="flex flex-col xl:flex-row gap-4 lgl:gap-0 justify-between">
+      <a href="Ashikur Rahman Asif resume.pdf"
+      download="Ashikur Rahman Asif resume.pdf"
+        className="relative w-full flex justify-center sm:w-1/2 sm:mx-auto md:mx-0 md:px-6 px-6 py-3 bg-#FF014F text-#c4cfde border-2 border-#FF014F rounded-md overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+      <button
+      
+      
+    >
+      Download Resume
+      <span className="absolute top-0 left-0 w-full h-full bg-white opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-30"></span>
+    </button>
+     </a>
+      {/* <a
+        href="#"
+        className="relative w-full sm:w-1/2 sm:mx-auto md:mx-0 px-6 py-3 bg-#FF014F text-#c4cfde border-2 border-#FF014F rounded-md overflow-hidden transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+      >
+        Download Resume
+        <span className="absolute top-0 left-0 w-full h-full bg-white opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-30"></span>
+      </a> */}
+    </div>
+  );
+};
 
-export default Media
+export default Media;
